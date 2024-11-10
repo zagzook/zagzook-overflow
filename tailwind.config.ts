@@ -53,6 +53,11 @@ export default {
     screens: {
       xs: "420px",
     },
+    fontFamily: {
+      inter: ["var(--font-inter)"],
+      "space-grotesk": ["var(--font-space-grotesk)"],
+      zagzook: ["var(--font-Zagzook-Regular)"],
+    },
   },
   plugins: [],
 } satisfies Config;
